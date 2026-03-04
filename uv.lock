@@ -1118,6 +1118,18 @@ wheels = [
 ]
 
 [[package]]
+name = "mnist"
+version = "0.2.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/85/2f/2fe28e6a2e5053e7fd14084b76cf7b8bb5935c5ecb78618646ed692d70b0/mnist-0.2.2.tar.gz", hash = "sha256:24934fade9fbbd8adc98713ba805282e7e579224e888169bb5c8ab777efa7b54", size = 4775, upload-time = "2018-09-24T22:23:57.137Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c6/c4/5db3bfe009f8d71f1d532bbadbd0ec203764bba3a469e4703a889db8e5e0/mnist-0.2.2-py2.py3-none-any.whl", hash = "sha256:80e2b07992e5cc61e6247751ce8926f6d15ab3ebde1508d9bbc8891a766c7b91", size = 3531, upload-time = "2018-09-24T22:23:55.811Z" },
+]
+
+[[package]]
 name = "nbclient"
 version = "0.10.4"
 source = { registry = "https://pypi.org/simple" }
@@ -1406,6 +1418,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "jupyter" },
     { name = "matplotlib" },
+    { name = "mnist" },
     { name = "numpy" },
     { name = "python-dateutil" },
     { name = "requests" },
@@ -1421,6 +1434,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=7.1.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.10.8" },
+    { name = "mnist", specifier = ">=0.2.2" },
     { name = "numpy", specifier = ">=2.4.1" },
     { name = "python-dateutil", specifier = ">=2.9.0.post0" },
     { name = "requests", specifier = ">=2.32.5" },
